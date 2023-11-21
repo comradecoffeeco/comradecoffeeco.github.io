@@ -1,0 +1,13 @@
+body {
+	background: ghostwhite;
+	width: 500px;
+	margin: auto;
+	font-family: sans_serif;
+}
+blockquote {
+	border: 0px solid;
+	margin-left: 0px;
+	text-align: center;
+	padding: 2px;
+	width: 500px;
+}
