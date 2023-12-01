@@ -509,7 +509,6 @@ strong {
   position: relative;
   min-height: 100vh;
   min-width: 100%;
-  vertical-align: middle;
 }
 
 .hero-section .container .row {
@@ -658,10 +657,6 @@ strong {
 
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
-  }
-
-  .hero-section {
-    padding-top: 150px;
   }
 
   .pricing-thumb {
