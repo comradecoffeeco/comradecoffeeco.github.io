@@ -495,7 +495,7 @@ strong {
 
 .hero-section {
   position: relative;
-  overflow-y: scroll;
+  overflow-y: hidden;
   min-height: 100vh;
   background-color: rgba(158,203,181,1.0);
   z-index:0;
@@ -506,9 +506,10 @@ strong {
 }
 
 .hero-section .container {
-  position: inherit;
-  min-height: 100%;
+  position: relative;
+  min-height: 100vh;
   min-width: 100%;
+  vertical-align: middle;
 }
 
 .hero-section .container .row {
