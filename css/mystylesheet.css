@@ -11,18 +11,6 @@ https://templatemo.com/tm-583-festava-live
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --pink-color:                   #E5B1BA;
-  --primary-color:                #F8CB2E;
-  --secondary-color:              #EE5007;
-  --section-bg-color:             #f8f7e5;
-  --custom-btn-bg-color:          #EE5007;
-  --custom-btn-bg-hover-color:    #c01f27;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
-
   --body-font-family:             'Ubuntu', sans-serif;
 
   --h1-font-size:                 74px;
@@ -33,7 +21,6 @@ https://templatemo.com/tm-583-festava-live
   --h6-font-size:                 22px;
   --p-font-size:                  18px;
   --btn-font-size:                14px;
-  --copyright-font-size:          16px;
 
   --border-radius-large:          100px;
   --border-radius-medium:         20px;
@@ -45,7 +32,7 @@ https://templatemo.com/tm-583-festava-live
 }
 
 body {
-  background-color: var(--white-color);
+  background-color: #fffffe;
   font-family: var(--body-font-family); 
 }
 
@@ -59,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: #000000;
 }
 
 h1,
@@ -96,13 +83,13 @@ h6 {
 }
 
 p {
-  color: var(--p-color);
+  color: #717275;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
 }
 
 ul li {
-  color: var(--p-color);
+  color: #717275;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
 }
@@ -115,12 +102,12 @@ button {
 
 a {
   display: inline-block;
-  color: var(--primary-color);
+  color: #F8CB2E;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  color: #B22727;
 }
 
 b,
@@ -129,7 +116,7 @@ strong {
 }
 
 .link-fx-1 {
-  color: var(--white-color);
+  color: #fffffe;
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -141,7 +128,7 @@ strong {
 }
 
 .link-fx-1:hover {
-  color: var(--link-hover-color);
+  color: #B22727;
 }
 
 .link-fx-1:hover::before {
@@ -218,12 +205,12 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
+  background-color: #f8f7e5;
   min-height: 100vh;
 }
 
 .section-overlay {
-  background-color: var(--dark-color);
+  background-color: #000000;
   position: absolute;
   top: 0;
   left: 0;
@@ -241,13 +228,13 @@ strong {
 }
 
 .tab-content {
-  background-color: var(--white-color);
+  background-color: #fffffe;
   border-radius: var(--border-radius-medium);
   padding: 45px;
 }
 
 .nav-tabs {
-  background-color: var(--section-bg-color);
+  background-color: #f8f7e5;
   border-radius: var(--border-radius-large);
   border-bottom: 0;
   padding: 15px;
@@ -268,20 +255,20 @@ strong {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:focus, 
 .nav-tabs .nav-link:hover {
-  background: var(--white-color);
+  background: #fffffe;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  color: var(--primary-color);
+  color: #F8CB2E;
 }
 
 .nav-tabs h5 {
-  color: var(--p-color); 
+  color: #717275; 
   margin-bottom: 0;
 }
 
 .nav-tabs .nav-link.active h5,
 .nav-tabs .nav-link:focus h5, 
 .nav-tabs .nav-link:hover h5 {
-  color: var(--primary-color);
+  color: #F8CB2E;
 }
 
 
@@ -289,7 +276,7 @@ strong {
   CUSTOM ICON COLOR               
 -----------------------------------------*/
 .custom-icon {
-  color: var(--secondary-color);
+  color: #EE5007;
 }
 
 
@@ -297,10 +284,10 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--custom-btn-bg-color);
+  background: #EE5007;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: #fffffe;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -309,26 +296,26 @@ strong {
 }
 
 .custom-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
-  color: var(--white-color);
+  background: #c01f27;
+  color: #fffffe;
 }
 
 .custom-border-btn {
   background: transparent;
-  border: 2px solid var(--custom-btn-bg-color);
-  color: var(--custom-btn-bg-color);
+  border: 2px solid #EE5007;
+  color: #EE5007;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn:hover,
 .custom-border-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
+  background: #c01f27;
   border-color: transparent;
-  color: var(--white-color);
+  color: #fffffe;
 }
 
 .custom-btn-bg-white {
-  border-color: var(--white-color);
-  color: var(--white-color);
+  border-color: #fffffe;
+  color: #fffffe;
 }
 
 
@@ -524,14 +511,6 @@ strong {
   min-width: 50%;
 }
 
-#start-button {
-  width:fit-content;
-  margin-right:auto;
-  margin-top:auto;
-  height:fit-content;
-  text-align:center;
-}
-
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
@@ -592,7 +571,7 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  color: var(--p-color);
+  color: #717275;
   margin-bottom: 24px;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -600,10 +579,10 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: #EE5007;
   border: none;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: #fffffe;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   transition: all 0.3s;
@@ -612,7 +591,7 @@ strong {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: var(--custom-btn-bg-hover-color);
+  background: #c01f27;
   border-color: transparent;
 }
 
@@ -651,7 +630,7 @@ strong {
   }
   
   .navbar {
-    background-color: var(--dark-color);
+    background-color: #000000;
   }
 
   .navbar-expand-lg .navbar-nav {
