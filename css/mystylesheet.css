@@ -512,7 +512,7 @@ strong {
   position: relative;
   overflow-y: hidden;
   min-height: 100vh;
-  background-color: var(--bg4-boyish-blue);
+  background-color: var(--bg1-shiny-blue);
   z-index:0;
 }
 
