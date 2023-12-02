@@ -13,6 +13,34 @@ https://templatemo.com/tm-583-festava-live
 :root {
   --body-font-family:             'Ubuntu', sans-serif;
 
+  --white: #ffffff;
+  --glossy-black: #231F20;
+
+  --bg1-shiny-blue: #64CADC;
+  --hl1-pale-yellow: #F8EDA3;
+  --tx1-purple-blue: #7AB7C2;
+
+  --bg2-pale-green: #95D3BF;
+  --hl2-murky-blue: #31899E;
+  --tx2-peachy-pink: #F8B4C3;
+
+  --bg3-barbie-pink: #E086AB;
+  --hl3-mint-green: #95D3BF;
+  --tx3-hot-pink: #E13E4D;
+
+  --bg4-boyish-blue: #79ACC2;
+  --hl4-cotton-yellow: #E1DEA6;
+  --tx4-fresh-orange: #F47A31;
+
+  --bg5-controversial-green: #8DD2CE;
+  --hl5-spyro-purple: #5C5AA7;
+  --tx5-lemon-yellow: #E3E43E;
+
+  --bg6-dusty-blue: #79ACC2;
+  --hl6-glossy-black: #231F20;
+  --tx6-peachy-beige: #DBD0B4;
+
+
   --h1-font-size:                 74px;
   --h2-font-size:                 46px;
   --h3-font-size:                 32px;
@@ -32,7 +60,7 @@ https://templatemo.com/tm-583-festava-live
 }
 
 body {
-  background-color: #fffffe;
+  background-color: var(--bg1-shiny-blue);
   font-family: var(--body-font-family); 
 }
 
@@ -205,7 +233,7 @@ strong {
 }
 
 .section-bg {
-  background-color: #f8f7e5;
+  background-color: var(--bg2-pale-green);
   min-height: 100vh;
 }
 
@@ -484,7 +512,7 @@ strong {
   position: relative;
   overflow-y: hidden;
   min-height: 100vh;
-  background-color: rgba(126,193,202,1.0);
+  background-color: var(--bg4-boyish-blue);
   z-index:0;
 }
 
@@ -515,7 +543,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-color: rgba(239, 174, 186, 1.0);
+  background-color: var(--bg3-barbie-pink);
   min-height: 100vh;
   background-size: cover;
   position: relative;
