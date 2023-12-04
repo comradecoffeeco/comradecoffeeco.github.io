@@ -229,7 +229,7 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding: 10vh 10vw;
+  padding: 5%;
 }
 
 .section-bg {
@@ -258,7 +258,10 @@ strong {
 .tab-content {
   background-color: #fffffe;
   border-radius: var(--border-radius-medium);
-  padding: 45px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .nav-tabs {
@@ -276,7 +279,6 @@ strong {
 }
 
 .nav-tabs .nav-link:first-child {
-  margin-right: 15px;
 }
 
 .nav-tabs .nav-item.show .nav-link, 
@@ -528,15 +530,15 @@ strong {
 
 .hero-section .container .row {
   width:fit-content;
-  min-width: 50%;
+  min-width: 80%;
   position: relative;
   display:flex;
   text-align:center;
 }
 
 #myLogo {
-  max-height: 70vh;
-  min-width: 50%;
+  max-height: 50vh;
+  min-width: 80%;
 }
 
 /*---------------------------------------
@@ -563,27 +565,22 @@ strong {
   CONTACT               
 -----------------------------------------*/
 #nav-tabContent {
-  padding:auto;
   min-width: 80%;
-  margin-left:10%;
-  margin-right:10%;
+  margin: auto;
+  padding: auto;
   align-items: center;
+  align-text: center;
 }
 
 .contact-section  {
-  margin:auto;
-  padding:auto;
   min-height: 100vh;
   min-width:100%;
-}
-
-#4 {
-  min-height: 100vh;
   justify-content: space-evenly;
 }
 
 #nav-ContactForm  {
   min-width:fit-content;
+  width: 95%;
   margin:auto;
 }
 
@@ -593,6 +590,7 @@ strong {
 }
 
 #nav-SocialMedia-tab  {
+  text-align: center;
 }
 
 /*---------------------------------------
@@ -603,7 +601,10 @@ strong {
   margin-bottom: 24px;
   padding-top: 13px;
   padding-bottom: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
   outline: none;
+  align-content: center;
 }
 
 .custom-form button[type="submit"] {
@@ -654,7 +655,7 @@ strong {
 
   .section-padding {
     padding-top: 10vh;
-    padding-bottom: 5vw;
+    padding-bottom: 10vh;
   }
   
   .navbar {
