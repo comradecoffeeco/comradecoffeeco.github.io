@@ -1,11 +1,13 @@
-/*
-
-TemplateMo 583 Festava Live
-
-https://templatemo.com/tm-583-festava-live
-
-*/
-
+/*---------------------------------------
+  WELCOME TO THE BACKROOMS !
+  DRINK UP , YOU NEED TO BE READY .
+  COFFEE WILL HELP .
+  THESE COOKIES ARE SAFE ,
+  BUT ONCE YOU ENTER THE NEXT LEVEL
+  THERE ARE NO GARUANTEES .
+  NOT EVERYONE IS A COMRADE .
+  BEWARE .
+-----------------------------------------*/
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -265,7 +267,7 @@ strong {
 }
 
 .nav-tabs {
-  background-color: #f8f7e5;
+  background-color: blueviolet;
   border-radius: var(--border-radius-large);
   border-bottom: 0;
   padding: 15px;
@@ -285,20 +287,20 @@ strong {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:focus, 
 .nav-tabs .nav-link:hover {
-  background: #fffffe;
+  background: #ffffff;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  color: #F8CB2E;
+  color: #ffffff;
 }
 
 .nav-tabs h5 {
-  color: #717275; 
+  color: lightpink; 
   margin-bottom: 0;
 }
 
 .nav-tabs .nav-link.active h5,
 .nav-tabs .nav-link:focus h5, 
 .nav-tabs .nav-link:hover h5 {
-  color: #F8CB2E;
+  color: palevioletred;
 }
 
 
@@ -314,7 +316,7 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: #EE5007;
+  background: #F8B4C3;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: #fffffe;
@@ -326,19 +328,19 @@ strong {
 }
 
 .custom-btn:hover {
-  background: #c01f27;
-  color: #fffffe;
+  background: #64CADC;
+  color: #F8EDA3;
 }
 
 .custom-border-btn {
   background: transparent;
-  border: 2px solid #EE5007;
-  color: #EE5007;
+  border: 2px solid;
+  color: #F8EDA3;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn:hover,
 .custom-border-btn:hover {
-  background: #c01f27;
+  background: #F8B4C3;
   border-color: transparent;
   color: #fffffe;
 }
@@ -608,7 +610,7 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background: #EE5007;
+  background: #F8B4C3;
   border: none;
   border-radius: var(--border-radius-large);
   color: #fffffe;
@@ -620,7 +622,7 @@ strong {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: #c01f27;
+  background: #F8B4C3;
   border-color: transparent;
 }
 
