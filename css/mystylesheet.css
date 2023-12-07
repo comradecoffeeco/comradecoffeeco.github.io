@@ -3,8 +3,8 @@
   DRINK UP , YOU NEED TO BE READY .
   COFFEE WILL HELP .
   THESE COOKIES ARE SAFE ,
-  BUT ONCE YOU ENTER THE NEXT LEVEL
-  THERE ARE NO GARUANTEES .
+  BUT ONCE YOU EXIT THIS LEVEL
+  THERE ARE NO GUARANTEES .
   NOT EVERYONE IS A COMRADE .
   BEWARE .
 -----------------------------------------*/
@@ -62,8 +62,8 @@
 }
 
 body {
-  background-color: var(--bg1-shiny-blue);
-  font-family: var(--body-font-family); 
+  font-family: var(--body-font-family);
+  background-color: #ffffff;
 }
 
 
@@ -146,7 +146,7 @@ strong {
 }
 
 .link-fx-1 {
-  color: #fffffe;
+  color: #ffffff;
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -235,7 +235,7 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--bg2-pale-green);
+  background-color: var(--bg4-boyish-blue);
   min-height: 100vh;
 }
 
@@ -258,7 +258,7 @@ strong {
 }
 
 .tab-content {
-  background-color: #fffffe;
+  background-color: #ffffff;
   border-radius: var(--border-radius-medium);
   padding-left: 5vw;
   padding-right: 5vw;
@@ -319,7 +319,7 @@ strong {
   background: #F8B4C3;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color: #fffffe;
+  color: #ffffff;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -342,12 +342,12 @@ strong {
 .custom-border-btn:hover {
   background: #F8B4C3;
   border-color: transparent;
-  color: #fffffe;
+  color: #ffffff;
 }
 
 .custom-btn-bg-white {
-  border-color: #fffffe;
-  color: #fffffe;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 
@@ -547,7 +547,9 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-color: var(--bg3-barbie-pink);
+  background-image: url("../images/pink-splash.svg");
+  background-position: bottom;
+  background-color: var(--bg2-pale-green);
   min-height: 100vh;
   background-size: cover;
   position: relative;
@@ -613,7 +615,7 @@ strong {
   background: #F8B4C3;
   border: none;
   border-radius: var(--border-radius-large);
-  color: #fffffe;
+  color: #ffffff;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   transition: all 0.3s;
