@@ -555,8 +555,30 @@ strong {
   position: relative;
 }
 
-.about-text-wrap {
+.about-section .container-fluid {
+  height: 100%;
+}
+
+#myAboutHeading {
+  padding-top: 15px;
+  text-align: center;
+}
+
+#myphotos {
   position: relative;
+  display: flex;
+  justify-items: center;
+}
+
+.about-section .container-fluid .col-lg-6 {
+  padding: 15px;
+
+#gabrielphoto {
+  width: 100%;
+}
+
+#robynphoto {
+  width: 80%;
 }
 
 /*---------------------------------------
@@ -655,11 +677,6 @@ strong {
 
   h6 {
     font-size: 18px;
-  }
-
-  .section-padding {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
   }
   
   .navbar {
