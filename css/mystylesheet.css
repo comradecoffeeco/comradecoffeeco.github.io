@@ -63,7 +63,7 @@
 
 body {
   font-family: var(--body-font-family);
-  background-color: #ffffff;
+  background-color: var(--bg5-controversial-green);
 }
 
 
@@ -230,13 +230,13 @@ strong {
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
-.section-padding {
+.section-padding  {
   padding: 5%;
+  min-height: 100vh;
 }
 
 .section-bg {
   background-color: var(--bg4-boyish-blue);
-  min-height: 100vh;
 }
 
 .section-overlay {
@@ -503,6 +503,16 @@ strong {
 
 
 /*---------------------------------------
+  LOTTIE
+-----------------------------------------*/
+
+#lottie-container {
+  max-height: 50vh;
+  min-width: 80%;
+}
+
+
+/*---------------------------------------
   HERO
 -----------------------------------------*/
 
@@ -575,7 +585,7 @@ strong {
 
 #gabrielphoto {
   width: 100%;
-}
+} 
 
 #robynphoto {
   width: 80%;
@@ -585,23 +595,27 @@ strong {
   MENU
 -----------------------------------------*/
 
-
+.menu-section {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100%;
+}
 
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
+.contact-section  {
+  position: relative;
+  min-height: 100vh;
+  min-width:100%;
+}
+
 #nav-tabContent {
   min-width: 80%;
   margin: auto;
   padding: auto;
   align-items: center;
   align-text: center;
-}
-
-.contact-section  {
-  min-height: 100vh;
-  min-width:100%;
-  justify-content: space-evenly;
 }
 
 #nav-ContactForm  {
@@ -689,10 +703,6 @@ strong {
 
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
-  }
-
-  .pricing-thumb {
-    padding: 35px;
   }
 
   .schedule-table h3 {
